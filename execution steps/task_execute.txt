@@ -1,0 +1,49 @@
+
+
+1. composer install
+2. create database 
+3. change database name and password, and username
+4. php artisan migrate
+5. open postman
+
+6. for create
+	select post method and write url: http://127.0.0.1:8000/api/store
+	select body and select json formate
+
+	 write in body
+
+{
+    "course_name": "aaaaaaaaaaaaaaa",
+    "course_provider_name": "fffffffffffffffff",
+    "thumbnail_url": "fffffffffffffffffffffdd",
+    "start_date": "2020-01-06",
+    "end_date": "2020-04-06"
+}
+
+
+7. for update
+	select post method and write url: http://127.0.0.1:8000/api/update/2
+	select body and select json formate
+
+	 write in body
+
+{
+    "course_name": "aaaaaaaaaaaaaaa",
+    "course_provider_name": "fffffffffffffffff",
+    "thumbnail_url": "fffffffffffffffffffffdd",
+    "start_date": "2020-01-06",
+    "end_date": "2020-04-06"
+}
+
+
+8. for reading
+
+http://127.0.0.1:8000/api/index
+
+9. for deleting
+
+http://127.0.0.1:8000/api/destroy/2
+
+
+10.  To view in the browser
+url: http://127.0.0.1:8000/view
