@@ -1,4 +1,4 @@
-
+*. create .env file in main folder and  copy content from env.txt and paste into .env file.
 
 1. composer install
 2. create database 
